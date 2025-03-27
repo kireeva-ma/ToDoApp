@@ -1,0 +1,10 @@
+//1) Make database migration - add User table(define list of field on your own todo) CHECKED
+// 2) Create `User` class(it's called Model) with corresponding properties(see `ToDo` class) CHECKED
+// 3) Create `UserController`(almost same as ToDosController, that's already created, don't copy all the methods, make it empty for this task todo) CHECKED
+// 4) Add logger property and `UserDBContext`  to `UserController` (class 'Todo') CHECKED
+// 5) Create `POST` endpoint in `UserController`, that accepts user and saves it to the database todo CHECKED
+// 6) Create `GET` endpoint in `UserController`, that retrieves all the users from database TODO CHECKED
+//7) ADD ParentUserId-validation on ToDos-Creation TODO CHECKED
+8) create endpoint "\users\{id}\todos" that returns all users todos TODO CHECKED
+9) implement endpoint that changes user information
+7.1,8.1,9.1 make it all in a async await style
